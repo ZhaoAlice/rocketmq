@@ -47,4 +47,8 @@ public class BrokerControllerTest {
     public void destroy() {
         UtilAll.deleteFile(new File(new MessageStoreConfig().getStorePathRootDir()));
     }
+
+    public static void main(String[] args) {
+
+    }
 }
